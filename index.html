@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TID Travel Agent</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <section class="navigation-header">
+                <img class="mocups" src="assets/Screenshot 2023-11-23 202853.png">
+                <nav class="navigation">
+                    <a href="#HomeSection" >Home</a>
+                    <a href="#MiddleSection" >Our Product</a>
+                    <a href="#BottomSection" >Call Us</a>
+                </nav>
+            </section>
+            <section class="title-header">
+                <h1> Your best travel agent</h1>
+                <h4> Your happiness is our happiness</h4>
+        </header>
+
+        <main id="main-section">
+            <section class="review">
+                <div class="slideshow">
+                    <div class="mySlides fade">
+                        <img src="assets/img/2023_changan_cs55_plus_00.jpg">
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img src="assets/img/vw-t-cross_4104.jpg">
+                    </div>
+                    
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)"></a>
+                    <a class="next" onclick="plusSlides(1)"></a>
+                </div>
+                <br>
+                <div class="navigation-button">
+                    <span class="dot active" onclick="changeSlide(1)"></span>
+                    <span class="dot" onclick="changeSlide(2)"></span>
+                </div>
+                <p>"Liburanku jadi menyenangkan bersama Travel Agentku"</p>
+            </section>
+            <section class="message-us">
+                <h4>Contact Us</h4>
+                <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                <form method="post" name="formIndex" action="#" enctype="multipart/form-data" onsubmit="validateForm()">
+                    <div class="jarakInput">
+                        <label for="nama">Your Name:</label>
+                        <input type="text" class="form-control" name="nama" id="nama" placeholder="First and last name">
+                        <h6 id="error-name"></h6>
+                    </div>
+                    <div class="jarakInput">
+                        <label for="email">Email Address:</label>
+                        <input type="email" name="email" id="email" placeholder="example@email.com">
+                        <h6 id="error-email"></h6>
+                    </div>
+                    <div class="jarakInput">
+                        <label for="select-where">Where are you intersted in?</label>
+                        <select name="select-where">
+                            <option value="#">Select options...</option>
+                            <option value="Malang">Malang</option>
+                            <option value="Yogyakarta">Yogyakarta</option>
+                            <option value="Surabaya">Surabaya</option>
+                            <option value="Surakarta">Surakarta / Solo</option>
+                            <option value="Jakarta">Jakarta</option>
+                            <option value="Semarang">Semarang</option>
+                            <option value="Denpasar">Denpasar</option>
+                        </select>
+                        <h6 id="error-tujuan"></h6>
+                    </div>
+                    <button type="submit">SEND</button>
+                </form>
+            </section>
+        </main>
+        <div class="sumber">
+            <img src="assets/user-icon-person-icon-client-symbol-profile-icon-vector.jpg" alt="Logo">
+            <div class="description">
+              <h2 class="h2Nama">Florence Hughes</h2>
+              <p class="pDeskripsi">Ibu Rumah Tangga, 28</p>
+            </div>
+          </div>
+
+        <footer class="use-this">
+            <p>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product.</p>
+            <ul>
+              <li>Your first feature, written in the form of a benefit statement.</li>
+              <li>Your second feature, written in the form of a benefit statement.</li>
+              <li>Your third feature written, in the form of a benefit statement.</li>
+            </ul>
+        </footer>
+
+        <main class="usulan">
+            <header>
+                <h1>Our Packages</h1>
+              </header>
+            
+              <main>
+            
+                <section class="features">
+            
+                  <h2>Bali</h2>
+                  <p>Travel and explore Bali, visit cultural heritage and interesting culinary</p>
+            
+                  <h2>Japan</h2>
+                  <p>Travel and explore Japan, visit cultural heritage and interesting culinary</p>
+            
+                  <h2>Singapore</h2>
+                  <p>Travel and explore Singapore, visit cultural heritage and interesting culinary</p>
+            
+                </section>
+            
+                <section class="features">
+            
+                  <h2>Bandung</h2>
+                  <p>Travel and explore Bandung, visit cultural heritage and interesting culinary</p>
+            
+                  <h2>Surabaya</h2>
+                  <p>Travel and explore Surabaya, visit cultural heritage and interesting culinary</p>
+            
+                  <h2>Jakarta</h2>
+                  <p>Travel and explore Jakarta, visit cultural heritage and interesting culinary</p>
+            
+                </section>
+            
+                <section class="closing-arguments">
+                    <h1>Your Closing Argument Here</h1>
+                    <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convalis tincidut risus. Phasellus fringilla odio vel erat fringilla. </p>
+                </section>
+                
+                <section class="call-to-action">
+                    <a href="#">Learn More</a>
+                </section>
+            
+              </main>
+              <footer class="footer">
+                <img src="assets/Screenshot 2023-11-23 202853.png">
+                <p>2023 Moqups</p>
+                <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+              </footer>
+        
+    </body>
+</html>
